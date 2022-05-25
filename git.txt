@@ -1,0 +1,35 @@
+dteleting al files in git folder:
+rm -rf .git
+
+cloning any repo
+git clone url (name o folder you want: optional)
+
+pwd (present directory)
+ls (list of content)
+cd 
+
+git log
+
+to create new file in flder
+touvh name.extension
+
+to ignore files
+1. touch .gitignore
+2.add file names in the folder you want to ignore
+3.add
+4.commit 
+5. for *.ext(all files having ext ext)
+6.dir/(for folders)
+
+
+compare staging area and workng directory
+git diff
+
+to delete
+git rm name.ext
+
+to rename
+git mv original.ext renamed.ext
+
+to untrack files
+git rm --cached name.ext
